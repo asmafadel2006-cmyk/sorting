@@ -11,20 +11,8 @@
 الحالة العكسية 24000 12300 16500 45
 3. رسم بياني (Chart) توضيحي للمقارنة بين الحالات المختلفة
 مقارنة الأداء (الأزمنة بالميكروثانية µs)
+<img width="500" height="296" alt="00" src="https://github.com/user-attachments/assets/d2792271-cf9d-4d85-9d4d-5498b6c79af7" />
 
-25,000 µs +-------------------------------------------------------+
-          |                                       [Bubble]        |
-20,000 µs |    [Bubble]                                           |
-          |                                       [Insertion]     |
-15,000 µs |                   [Selection] [Selection]             |
-          |    [Selection]                                        |
-10,000 µs |                   [Bubble]                            |
-          |    [Insertion]                                        |
- 5,000 µs |                               [Selection]             |
-          |                               [Bubble]                |
-     0 µs +---[Quick]---------[Quick]-----[Insertion]-[Quick]-----+
-               Random       Partially       Sorted     Reverse
-                            Sorted                     Sorted
 4. تحليل ومناقشة النتائج
 مقارنة الفرق في الأداء بين خوارزميات O(N^2) وخوارزميات O(N \log N):
 خوارزميات مثل (Bubble Sort, Selection Sort, Insertion Sort) تعتمد على التعقيد التربيعي O(N^2)، مما يجعلها بطيئة وتأخذ وقتاً طويلاً جداً في التنفيذ مع زيادة حجم البيانات.
@@ -36,4 +24,4 @@
 
 
 
-<img width="500" height="296" alt="00" src="https://github.com/user-attachments/assets/d2792271-cf9d-4d85-9d4d-5498b6c79af7" />
+
